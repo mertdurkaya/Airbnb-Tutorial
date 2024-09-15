@@ -13,6 +13,7 @@
 		51A0356E2C95C35500A47F66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A0356D2C95C35500A47F66 /* Preview Assets.xcassets */; };
 		51A035812C964DC300A47F66 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A035802C964DC300A47F66 /* ExploreView.swift */; };
 		51A035832C964FB100A47F66 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A035822C964FB100A47F66 /* ListingItemView.swift */; };
+		51A035852C96F2D600A47F66 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A035842C96F2D600A47F66 /* SearchAndFilterBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		51A0356D2C95C35500A47F66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51A035802C964DC300A47F66 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		51A035822C964FB100A47F66 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		51A035842C96F2D600A47F66 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				51A035802C964DC300A47F66 /* ExploreView.swift */,
+				51A035842C96F2D600A47F66 /* SearchAndFilterBar.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				51A035832C964FB100A47F66 /* ListingItemView.swift in Sources */,
 				51A035682C95C35400A47F66 /* ContentView.swift in Sources */,
 				51A035812C964DC300A47F66 /* ExploreView.swift in Sources */,
+				51A035852C96F2D600A47F66 /* SearchAndFilterBar.swift in Sources */,
 				51A035662C95C35400A47F66 /* AirbnbTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
