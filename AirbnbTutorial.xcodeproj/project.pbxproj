@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511B96C22C9A296F00893E91 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511B96C12C9A296F00893E91 /* DestinationSearchView.swift */; };
 		51A035662C95C35400A47F66 /* AirbnbTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A035652C95C35400A47F66 /* AirbnbTutorialApp.swift */; };
 		51A035682C95C35400A47F66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A035672C95C35400A47F66 /* ContentView.swift */; };
 		51A0356A2C95C35500A47F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A035692C95C35500A47F66 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		511B96C12C9A296F00893E91 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		51A035622C95C35400A47F66 /* AirbnbTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A035652C95C35400A47F66 /* AirbnbTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbTutorialApp.swift; sourceTree = "<group>"; };
 		51A035672C95C35400A47F66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				51A035802C964DC300A47F66 /* ExploreView.swift */,
 				51A035842C96F2D600A47F66 /* SearchAndFilterBar.swift */,
+				511B96C12C9A296F00893E91 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51A0358A2C9784F800A47F66 /* ListingImageCarouselView.swift in Sources */,
+				511B96C22C9A296F00893E91 /* DestinationSearchView.swift in Sources */,
 				51A035832C964FB100A47F66 /* ListingItemView.swift in Sources */,
 				51A035682C95C35400A47F66 /* ContentView.swift in Sources */,
 				51A035812C964DC300A47F66 /* ExploreView.swift in Sources */,

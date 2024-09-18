@@ -1,4 +1,4 @@
- //
+//
 //  AirbnbTutorialApp.swift
 //  AirbnbTutorial
 //
@@ -11,7 +11,7 @@ import SwiftUI
 struct AirbnbTutorialApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ExploreView()
         }
     }
 }
