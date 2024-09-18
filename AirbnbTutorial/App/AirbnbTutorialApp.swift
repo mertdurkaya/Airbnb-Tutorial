@@ -11,7 +11,7 @@ import SwiftUI
 struct AirbnbTutorialApp: App {
     var body: some Scene {
         WindowGroup {
-            ExploreView()
+            ContentView()
         }
     }
 }
