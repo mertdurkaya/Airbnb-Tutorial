@@ -26,6 +26,7 @@
 		51A035852C96F2D600A47F66 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A035842C96F2D600A47F66 /* SearchAndFilterBar.swift */; };
 		51A035872C97848B00A47F66 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A035862C97848B00A47F66 /* ListingDetailView.swift */; };
 		51A0358A2C9784F800A47F66 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A035892C9784F800A47F66 /* ListingImageCarouselView.swift */; };
+		51BA60EA2CA3107F00BE3BCB /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BA60E92CA3107F00BE3BCB /* Double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		51A035842C96F2D600A47F66 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		51A035862C97848B00A47F66 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		51A035892C9784F800A47F66 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
+		51BA60E92CA3107F00BE3BCB /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			children = (
 				51013AB72C9DC5DF00AFE81C /* DeveloperPreview.swift */,
 				51013AC02CA204F000AFE81C /* Regions.swift */,
+				51BA60E92CA3107F00BE3BCB /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -195,8 +198,8 @@
 		51A035792C964D5200A47F66 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				51013ABB2CA1FDA800AFE81C /* ViewModel */,
 				51013ABA2CA1FDA000AFE81C /* View */,
+				51013ABB2CA1FDA800AFE81C /* ViewModel */,
 				51013AB92CA1FD8E00AFE81C /* Service */,
 			);
 			path = Explore;
@@ -334,6 +337,7 @@
 				511B96C22C9A296F00893E91 /* DestinationSearchView.swift in Sources */,
 				51A035832C964FB100A47F66 /* ListingItemView.swift in Sources */,
 				51A035682C95C35400A47F66 /* ContentView.swift in Sources */,
+				51BA60EA2CA3107F00BE3BCB /* Double.swift in Sources */,
 				51013ABD2CA1FDB700AFE81C /* ExploreViewModel.swift in Sources */,
 				51013AC12CA204F000AFE81C /* Regions.swift in Sources */,
 				51013AAB2C9B843600AFE81C /* WishlistsView.swift in Sources */,

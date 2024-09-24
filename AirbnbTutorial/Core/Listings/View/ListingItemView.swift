@@ -42,7 +42,7 @@ struct ListingItemView: View {
 
                 HStack(spacing: 4) {
                     Image(systemName: "star.fill")
-                    Text("\(listing.rating)")
+                    Text("\(listing.rating.roundToTwoDecimal())")
                 }
                 .foregroundStyle(.black)
             }

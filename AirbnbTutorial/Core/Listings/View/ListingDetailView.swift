@@ -12,11 +12,12 @@ struct ListingDetailView: View {
     @Environment(\.dismiss) var dismiss
     let listing: Listing
     @State private var cameraPosition: MapCameraPosition
-    
+
     init(listing: Listing) {
         self.listing = listing
-        
-        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: listing.latitude, longitude: listing.longitude), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+
+        let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: listing.latitude, longitude: listing.longitude),
+                                        span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
         self._cameraPosition = State(initialValue: .region(region))
     }
 
@@ -36,7 +37,8 @@ struct ListingDetailView: View {
                                 .fill(.white)
                                 .frame(width: 32, height: 32)
                         }
-                        .padding(32)
+                        .padding(40)
+                        .padding(.top, 16)
                 })
             }
 
@@ -49,7 +51,7 @@ struct ListingDetailView: View {
                     HStack(spacing: 2) {
                         Image(systemName: "star.fill")
 
-                        Text("\(listing.rating)")
+                        Text("\(listing.rating.roundToTwoDecimal())")
 
                         Text(" - ")
 
@@ -179,7 +181,8 @@ struct ListingDetailView: View {
             .padding()
         }
         .toolbar(.hidden, for: .tabBar)
-        .ignoresSafeArea(edges: .top)
+        .toolbar(.hidden, for: .navigationBar)
+        .ignoresSafeArea()
         .padding(.bottom, 72)
         .overlay(alignment: .bottom) {
             VStack {
